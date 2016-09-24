@@ -1,0 +1,13 @@
+27c644ddfe77f2693bf9a1188e1cfb40 *DESCRIPTION
+c947f011dd841fcbc94e40f12eac3844 *NAMESPACE
+7acfb597c4e1c7c8df069532353a6938 *R/Estim_fkmon.R
+f23f1b4777010dba4300dc0c69c7eba4 *R/Estim_pkmon.R
+3b74dab22b94415be8567ee4d2994fbf *R/Simul_kmon.R
+d376867d86d50dd51dfa7dbdc4052b20 *R/auxiliary_functions.R
+fc17536a4a7689f1523cf9f51a26b2a0 *man/BaseNorm.Rd
+d6b405c7349b4301e9af89e2c039df9a *man/Delta.Rd
+0bc7a52667ff1f03f8843a34264b7c07 *man/Spline.Rd
+56163084df563c8af17c48dca8285b81 *man/estMonotone.Rd
+0679fa7516a51c8c7526de09ec3ab734 *man/kKnot.Rd
+5f12c91a99e2b8311b338a3a10bb6cda *man/pEmp.Rd
+fb8e68447ad8442d7bd87125dca73045 *man/pkmon-package.Rd
