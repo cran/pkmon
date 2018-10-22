@@ -295,7 +295,7 @@ pMonotone <- function(ptild,  t.zero=1e-10, t.P=1e-8, max.sn=NULL, k, verbose=FA
     stop("ptild should be a numeric vector.")
   }
   
-  if(abs(k - round(k)) >= .Machine$double.eps^0.5 | k<2){
+  if(k!=floor(k) | k<2){
     stop("k should be an integer strictly larger than 1")
   }
   

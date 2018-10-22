@@ -1,9 +1,9 @@
-27c644ddfe77f2693bf9a1188e1cfb40 *DESCRIPTION
+2582958ed1499e816e46ad68d681d85e *DESCRIPTION
 c947f011dd841fcbc94e40f12eac3844 *NAMESPACE
-7acfb597c4e1c7c8df069532353a6938 *R/Estim_fkmon.R
-f23f1b4777010dba4300dc0c69c7eba4 *R/Estim_pkmon.R
-3b74dab22b94415be8567ee4d2994fbf *R/Simul_kmon.R
-d376867d86d50dd51dfa7dbdc4052b20 *R/auxiliary_functions.R
+b1fe42d741ee1fd2fdc64ac85b7d95e8 *R/Estim_fkmon.R
+d3eec534c472362b11804d65c2aaaefe *R/Estim_pkmon.R
+b7d72c90cb66e1d2fdfc4ed986e0cebf *R/Simul_kmon.R
+fed5af2ab4df16bfc72868601e0f9569 *R/auxiliary_functions.R
 fc17536a4a7689f1523cf9f51a26b2a0 *man/BaseNorm.Rd
 d6b405c7349b4301e9af89e2c039df9a *man/Delta.Rd
 0bc7a52667ff1f03f8843a34264b7c07 *man/Spline.Rd

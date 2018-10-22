@@ -23,11 +23,11 @@ dSpline=function(supp, k){
   # vector with length supp+1
   
   # Checking input
-  if(abs(supp - round(supp)) >= .Machine$double.eps^0.5 | supp<0){
+  if(any(supp!=floor(supp)) | any(supp<0)){
     stop("supp should be a positive integer")
   }
   
-  if(abs(k - round(k)) >= .Machine$double.eps^0.5 | k<2){
+  if(k!=floor(k) | k<2){
     stop("k should be an integer strictly larger than 1")
   }
   
@@ -47,14 +47,13 @@ rSpline=function(n=1, supp, k){
   # vector of length n
   
   # Checking input
-  if(abs(supp - round(supp)) >= .Machine$double.eps^0.5 | supp<0){
+  if(any(supp!=floor(supp)) | any(supp<0)){
     stop("supp should be a positive integer")
   }
   
-  if(abs(k - round(k)) >= .Machine$double.eps^0.5 | k<2){
+  if(k!=floor(k) | k<2){
     stop("k should be an integer strictly larger than 1")
   }
-  
   
 	p=dSpline(supp, k=k);
 	return(sample(0:supp, size=n, replace=TRUE, prob=p));
@@ -75,11 +74,11 @@ dmixSpline=function(supp, k, prob){
   # vector with length max(supp)+1
   
   # Checking input
-  if(abs(supp - round(supp)) >= .Machine$double.eps^0.5 | supp<0){
+  if(any(supp!=floor(supp)) | any(supp<0)){
     stop("supp should be a positive integer")
   }
   
-  if(abs(k - round(k)) >= .Machine$double.eps^0.5 | k<2){
+  if(k!=floor(k) | k<2){
     stop("k should be an integer strictly larger than 1")
   }
   
@@ -107,11 +106,11 @@ rmixSpline=function(n=1, supp, k, prob){
   # vector of length n
   
   # Checking input
-  if(abs(supp - round(supp)) >= .Machine$double.eps^0.5 | supp<0){
+  if(any(supp!=floor(supp)) | any(supp<0)){
     stop("supp should be a positive integer")
   }
   
-  if(abs(k - round(k)) >= .Machine$double.eps^0.5 | k<2){
+  if(k!=floor(k) | k<2){
     stop("k should be an integer strictly larger than 1")
   }
   

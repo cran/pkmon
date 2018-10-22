@@ -33,11 +33,11 @@ Base=function(k,J){
 
 BaseNorm=function(k,J){
   # Checking input
-  if(abs(J - round(J)) >= .Machine$double.eps^0.5 | J<0){
+  if(J!=floor(J) | J<0){
     stop("J should be a positive integer")
   }
   
-  if(abs(k - round(k)) >= .Machine$double.eps^0.5 | k<2){
+  if(k!=floor(k) | k<2){
     stop("k should be an integer strictly larger than 1")
   }
   
@@ -56,11 +56,11 @@ Delta=function(k,L,p){
     stop("p should be a numeric vector.")
   }
   
-  if(abs(L - round(L)) >= .Machine$double.eps^0.5 | L<0){
+  if(L!=floor(L) | L<0){
     stop("L should be a positive integer")
   }
   
-  if(abs(k - round(k)) >= .Machine$double.eps^0.5 | k<2){
+  if(k!=floor(k) | k<2){
     stop("k should be an integer strictly larger than 1")
   }
   
@@ -108,7 +108,7 @@ kKnot <- function(p,k){
     stop("p should be a numeric vector.")
   }
   
-  if(abs(k - round(k)) >= .Machine$double.eps^0.5 | k<2){
+  if(k!=floor(k) | k<2){
     stop("k should be an integer strictly larger than 1")
   }
   
