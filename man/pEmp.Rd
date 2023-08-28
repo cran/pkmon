@@ -23,8 +23,6 @@ The empirical estimator is defined as \eqn{p(j)=\Sigma_{i=1}^n \bold{1}_{x_j=j}}
 	\item{freq}{The normalized counts}
 }
 \author{Jade Giguelay
-	\email{jade.giguelay@ens-paris-saclay.fr}
-	\url{http://maiage.jouy.inra.fr/jgiguelay}
 }
 
 \examples{

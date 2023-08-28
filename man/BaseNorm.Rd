@@ -30,8 +30,6 @@ matrix \eqn{Q} with J+1 rows and J+1 columns with \eqn{Q(i,j)=Q_j^k(i-1)=C_{j-i+
 	\emph{Journal of Applied Probability}, \bold{50}, 827--847.
 }
 \author{Jade Giguelay
-	\email{jade.giguelay@ens-paris-saclay.fr}
-	\url{http://maiage.jouy.inra.fr/jgiguelay}
 }
 \seealso{
 \link{rSpline}, \link{dSpline}, \link{rmixSpline}, \link{dmixSpline}

@@ -48,8 +48,6 @@ See \link{BaseNorm} for details on the spline basis.
 	\emph{Journal of Applied Probability}, \bold{50}, 827--847.
 }
 \author{Jade Giguelay
-	\email{jade.giguelay@ens-paris-saclay.fr}
-	\url{http://maiage.jouy.inra.fr/jgiguelay}
 }
 \seealso{
 \link{pEmp}

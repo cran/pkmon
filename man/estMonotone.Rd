@@ -57,8 +57,6 @@ cvge = 2 if maximum number of iterations reached}
 	\emph{Scandinavian Journal of Statistics}, \bold{35}, 385--399
 }
 \author{Jade Giguelay
-	\email{jade.giguelay@ens-paris-saclay.fr}
-	\url{http://maiage.jouy.inra.fr/jgiguelay}
 }
 \seealso{
 \link{pEmp}, \link{BaseNorm}

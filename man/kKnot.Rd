@@ -35,9 +35,6 @@ kKnot(p, k)
 }
 
 \author{Jade Giguelay
-   \email{jade.giguelay@ens-paris-saclay.fr}
-	\url{http://maiage.jouy.inra.fr/jgiguelay}
-
 }
 \seealso{
 \link{Delta}

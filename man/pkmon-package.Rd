@@ -8,18 +8,7 @@ Least-squares estimator under k-monotony constraint for discrete functions
 \description{
 Description: This package implements two least-squares estimators under k-monotony constraint using a method based on the Support Reduction Algorithm from Groeneboom et al (2008). The first one is a projection estimator on the set of k-monotone discrete functions. The second one is a projection on the set of k-monotone discrete probabilities. This package provides functions to generate samples from the spline basis from Lefevre and Loisel (2013), and from mixtures of splines.
 }
-\details{
-\tabular{ll}{
-Package: \tab pkmon\cr
-Type: \tab Package\cr
-Version: \tab 0.9\cr
-Date: \tab 2016-07-28\cr
-License: \tab CC BY 4.0\cr
-}
-}
 \author{Jade Giguelay
-	\email{jade.giguelay@ens-paris-saclay.fr}
-	\url{http://maiage.jouy.inra.fr/jgiguelay}
 }
 \seealso{
 \link{pMonotone}, \link{fMonotone}
